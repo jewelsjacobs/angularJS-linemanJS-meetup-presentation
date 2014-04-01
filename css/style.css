@@ -1,0 +1,27 @@
+.reveal .lineman-txt {
+    display: block;
+    color: #fff;
+    font-weight: 200;
+    font-size: 83px;
+    text-align: center;
+    padding: 71px;
+    margin: 0px 0px 16px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 0 0 0;
+    letter-spacing: normal;
+    text-transform: none;
+    border: 16px #75fe04 solid;
+    background-color: #000000;
+}
+
+.reveal .plus {
+    margin: -35px;
+    line-height: 1.4em;
+}
+
+.reveal section .angular-logo {
+    margin: 0px;
+    background: transparent;
+    border: 0px solid #eeeeee;
+    box-shadow: 0 0 0;
+}
