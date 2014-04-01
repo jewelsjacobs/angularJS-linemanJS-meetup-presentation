@@ -17,4 +17,6 @@ Presentation for Austin AngularJS Meetup on how to use LinemanJS in an AngularJS
 * [Testum](https://github.com/airportyh/testem)
 * [coffeelint](http://www.coffeelint.org/)
 
-## [Streaming of event](https://www.youtube.com/watch?v=4FLv9vQIWO4)
+[Streaming of event](https://www.youtube.com/watch?v=4FLv9vQIWO4)
+
+[Code used in demo](https://github.com/jewelsjacobs/angularJS-linemanJS-meetup-demo)
