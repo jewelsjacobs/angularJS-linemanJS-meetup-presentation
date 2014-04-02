@@ -1,27 +1,157 @@
-.reveal .lineman-txt {
-    display: block;
-    color: #fff;
-    font-weight: 200;
-    font-size: 83px;
-    text-align: center;
-    padding: 71px;
-    margin: 0px 0px 16px 0px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-shadow: 0 0 0;
-    letter-spacing: normal;
-    text-transform: none;
-    border: 16px #75fe04 solid;
-    background-color: #000000;
+.zero {
+  text-shadow: 0 0 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 0 0;
+  margin: 0;
 }
-
+.large-line-height {
+  line-height: 1.4em;
+}
+.medium-line-height {
+  line-height: 1.3em;
+}
+.image {
+  border: 0;
+  box-shadow: 0 0 0;
+  float: left;
+  margin: 40px;
+  padding: 40px;
+}
+.lineman {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0 0 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+}
+.reveal .block {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0 0 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+  border: 16px #75fe04 solid;
+}
+.reveal .logo {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0 0 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+  border: 16px #75fe04 solid;
+  padding: 71px;
+  margin: 16px 0px;
+}
+.reveal #lineman {
+  padding: 0;
+}
 .reveal .plus {
-    margin: -35px;
-    line-height: 1.4em;
+  margin: -35px;
+  line-height: 1.4em;
 }
-
-.reveal section .angular-logo {
-    margin: 0px;
-    background: transparent;
-    border: 0px solid #eeeeee;
-    box-shadow: 0 0 0;
+.reveal .angular-logo {
+  margin: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: 0 0 0;
+}
+.reveal .bullets {
+  display: table-cell;
+  color: #000000;
+  line-height: 1.3em;
+  font-size: .8em;
+  font-weight: 400;
+  list-style-type: none;
+}
+.reveal #lineman .content img {
+  border: 0;
+  box-shadow: 0 0 0;
+  float: left;
+  margin: 40px;
+  padding: 40px;
+}
+.reveal #grunt .content img {
+  float: left;
+  margin: 40px;
+  padding: 40px;
+  text-shadow: 0 0 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 0 0;
+  margin: 0;
+}
+.reveal #grunt .content {
+  text-shadow: 0 0 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 0 0;
+  margin: 0;
+}
+.reveal #grunt .content .list {
+  margin: 0px -28px 0px 309px;
+  border: 1px solid #FFFFFF;
+}
+.reveal .section {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0 0 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+  border: 16px #75fe04 solid;
+  background-color: #FFFFFF;
+}
+.reveal .txt {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0 0 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+  padding: 20px;
+}
+.reveal .white {
+  text-align: left;
+  font-size: .8em;
+  font-weight: 400;
+  color: #000000;
+  background-color: #b6b6b6;
+  line-height: 1.35em;
+  font-size: 1.8em;
+  padding: 24px 62px 24px 24px;
+  text-indent: 30px;
+  border-bottom: 1px solid;
+}
+.reveal .invert {
+  text-align: left;
+  font-size: .8em;
+  font-weight: 400;
+  color: #000000;
+  background-color: #b6b6b6;
+  line-height: 1.35em;
+  font-size: 1.8em;
+  padding: 24px 62px 24px 24px;
+  text-indent: 30px;
+  border-bottom: 1px solid;
+  color: #FFFFFF;
+  background-color: #000000;
 }

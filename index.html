@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>AngularJS + LinemanJS Presentation for the Austin AngularJS Meetup</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -44,11 +44,64 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-          <h1 class="lineman-txt">Lineman.js</h1>
+				<section id="title" data-transition="zoom">
+            <h1 class="logo"><a href="#/lineman">Lineman.js</a></h1>
           <h1 class="plus">+</h1>
-          <img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/>
+          <a href="#/angular"><img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/></a>
 				</section>
+
+
+    <!--LINEMAN SLIDES-->
+
+        <section id="lineman" data-background-color="#000000">
+          <div class="section stretch">
+            <h1 class="txt">Lineman.js</h1>
+            <div class="content">
+              <img class="fragment noyeoman" src="img/noyeoman.png" alt=""/>
+              <ol class="bullets">
+                <li class="fragment roll-in">Workflow configuration</li>
+                <li class="fragment roll-in"><a href="#/grunt">Grunt <em>wrapper</em></a></li>
+                <li class="fragment roll-in">Express <em>wrapper</em></li>
+                <li class="fragment roll-in"><u>Boilerplate NOT generate</u></li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section id="workflow" data-background-color="#000000">
+          <div class="section stretch">
+            <h1 class="txt">Lineman.js Workflow</h1>
+            <div class="content">
+              <div class="sub well">
+                <p class="bright">lineman new</p>
+                <p class="bright">lineman run</p>
+                <p class="bright">lineman spec</p>
+                <p class="bright">lineman build</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--GRUNT-->
+        <section id="grunt" data-background-color="#000000">
+          <div class="stretch">
+            <h1>Grunt Management</h1>
+            <div class="content">
+              <img src="img/grunt.png" alt=""/>
+                <div class="list">
+                <div class="fragment white">Contrib / Modules</div>
+                <div class="fragment white">Configuration</div>
+                <div class="fragment white">Targets and Sources</div>
+                <div class="fragment invert">Workflow</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--ANGULAR SLIDES-->
+        <section id="angular">
+          <img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/>
+        </section>
 
 			</div>
 

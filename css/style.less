@@ -1,0 +1,128 @@
+@green-border: 16px #75fe04 solid;
+@lineman-font-family: 'Source Sans Pro', sans-serif;
+@no-shadow: 0 0 0;
+@none: 0;
+
+.zero {
+  text-shadow: @no-shadow;
+  padding: @none;
+  border: @none;
+  box-shadow: @no-shadow;
+  margin: @none;
+}
+
+.large-line-height {
+  line-height: 1.4em;
+}
+
+.medium-line-height {
+  line-height: 1.3em;
+}
+
+.image {
+  border: @none;
+  box-shadow: @no-shadow;
+  float: left;
+  margin: 40px;
+  padding: 40px;
+}
+
+.lineman {
+  font-weight: 200;
+  font-size: 83px;
+  text-align: center;
+  font-family: @lineman-font-family;
+  text-shadow: @no-shadow;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+  background-color: #000000;
+}
+
+.reveal {
+//  Title Slide
+  .block {
+    .lineman;
+    border: @green-border;
+  }
+
+  .logo {
+    .block;
+    padding: 71px;
+    margin: 16px 0px;
+  }
+
+  #lineman {
+    padding: @none;
+  }
+
+  .plus {
+    margin: -35px;
+    .large-line-height;
+  }
+
+  .angular-logo {
+    margin: @none;
+    background: transparent;
+    border: @none;
+    box-shadow: @no-shadow;
+  }
+
+  .bullets {
+    display: table-cell;
+    color: #000000;
+    .medium-line-height;
+    font-size: .8em;
+    font-weight: 400;
+    list-style-type: none;
+  }
+
+  #lineman .content img {
+    .image;
+  }
+
+  #grunt .content img {
+    .image;
+    .zero;
+  }
+
+  #grunt .content {
+    .zero;
+  }
+
+  #grunt .content .list {
+    margin: 0px -28px 0px 309px;
+    border: 1px solid #FFFFFF;
+  }
+
+// Lineman Slide 1
+  .section {
+    .block;
+    background-color: #FFFFFF;
+  }
+
+  .txt {
+    .lineman;
+    padding: 20px;
+  }
+
+  .white {
+    text-align: left;
+    font-size: .8em;
+    font-weight: 400;
+    color: #000000;
+    background-color: #b6b6b6;
+    line-height: 1.35em;
+    font-size: 1.8em;
+    padding: 24px 62px 24px 24px;
+    text-indent:30px;
+    border-bottom: 1px solid;
+  }
+
+  .invert {
+    .white;
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+}
