@@ -44,10 +44,39 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+
+        <!--Story-->
+
+        <section id="story" data-transition="zoom" data-background-color="#000000">
+          <img src="img/the-lord-of-the-rings-the-one-ring-3d-screensaver.jpg" alt=""/>
+          <h1>One Architecture to Rule Them All</h1>
+          <p>A tale of a developer who tried to get buy in from as many people as possible on a <a href="#/stack">tech stack.</a></p>
+        </section>
+
+        <section id="stack" data-transition="zoom" data-background-color="#FFFFFF">
+          <h1>The Stack</h1>
+            <img src="img/Stack_4.jpg" alt=""/>
+            <ul>
+              <li><a href="http://angularjs.org/" target="_blank">AngularJS</a></li>
+              <li><a href="http://lesscss.org/" target="_blank">LESS</a></li>
+              <li><a href="http://bower.io/" target="_blank">bower</a></li>
+              <li><a href="https://github.com/mgonto/restangular" target="_blank">restanguar.js</a></li>
+              <li><a href="http://coffeescript.org/" target="_blank">CoffeeScript</a></li>
+              <li><a href="http://jashkenas.github.io/docco/" target="_blank">Docco</a></li>
+              <li><a href="http://expressjs.com/" target="_blank">ExpressJS</a></li>
+            </ul>
+        </section>
+
+        <section id="yeoman" data-transition="zoom" data-background-color="#000000">
+          <img src="img/the-lord-of-the-rings-the-one-ring-3d-screensaver.jpg" alt=""/>
+          <h1>One Architecture to Rule Them All</h1>
+          <h2>Ye Old <a href="http://yeoman.io/community-generators.html" target="_blank">Yeoman</a></h2>
+        </section>
+
 				<section id="title" data-transition="zoom">
-            <h1 class="logo"><a href="#/lineman">Lineman.js</a></h1>
+          <h1 class="logo"><a href="#/lineman">Lineman.js</a></h1>
           <h1 class="plus">+</h1>
-          <a href="#/angular"><img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/></a>
+          <img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/>
 				</section>
 
 
@@ -57,27 +86,13 @@
           <div class="section stretch">
             <h1 class="txt">Lineman.js</h1>
             <div class="content">
-              <img class="fragment noyeoman" src="img/noyeoman.png" alt=""/>
+              <a href="http://linemanjs.com/#lineman-vs-yeoman" target="_blank"><img class="fragment noyeoman" src="img/noyeoman.png" alt=""/></a>
               <ol class="bullets">
-                <li class="fragment roll-in">Workflow configuration</li>
-                <li class="fragment roll-in"><a href="#/grunt">Grunt <em>wrapper</em></a></li>
+                <li class="fragment roll-in"><a href="#/lineman-workflow">Workflow configuration</a></li>
+                <li class="fragment roll-in"><a href="#/grunt">Grunt</a> <em>wrapper</em></li>
                 <li class="fragment roll-in">Express <em>wrapper</em></li>
                 <li class="fragment roll-in"><u>Boilerplate NOT generate</u></li>
               </ol>
-            </div>
-          </div>
-        </section>
-
-        <section id="workflow" data-background-color="#000000">
-          <div class="section stretch">
-            <h1 class="txt">Lineman.js Workflow</h1>
-            <div class="content">
-              <div class="sub well">
-                <p class="bright">lineman new</p>
-                <p class="bright">lineman run</p>
-                <p class="bright">lineman spec</p>
-                <p class="bright">lineman build</p>
-              </div>
             </div>
           </div>
         </section>
@@ -88,9 +103,9 @@
             <h1>Grunt Management</h1>
             <div class="content">
               <img src="img/grunt.png" alt=""/>
-                <div class="list">
-                <div class="fragment white">Contrib / Modules</div>
-                <div class="fragment white">Configuration</div>
+              <div class="list">
+                <div class="fragment white"><a href="https://gist.github.com/jewelsjacobs/9944282">Contrib / Modules</a></div>
+                <div class="fragment white"><a href="https://gist.github.com/jewelsjacobs/9942873" target="_blank">Configuration</a></div>
                 <div class="fragment white">Targets and Sources</div>
                 <div class="fragment invert">Workflow</div>
               </div>
@@ -98,9 +113,50 @@
           </div>
         </section>
 
-        <!--ANGULAR SLIDES-->
-        <section id="angular">
-          <img class="angular-logo" src="img/AngularJS-large.png" alt="Angular JS Logo"/>
+        <section id="lineman-grunt-stack" data-background-color="#000000">
+          <div class="section stretch">
+            <h1 class="txt">Lineman.js  - Grunt Tasks</h1>
+              <ul class="dark">
+                <li class="fragment"><img src="img/check.png" alt="check"/>ng-min, ng-templates</li>
+                <li class="fragment"><img src="img/check.png" alt="check"/>compile LESS & CoffeeScript</li>
+                <li class="fragment"><img src="img/check.png" alt="check"/>Concatenate & Uglify</li>
+                <li class="fragment"><img src="img/check.png" alt="check"/><a href="https://github.com/linemanjs/lineman/blob/master/config/application.coffee" target="_blank">Even More!</a></li>
+              </ul>
+          </div>
+        </section>
+
+        <section id="lineman-plugins" data-background-color="#000000">
+          <div class="section stretch">
+            <h1 class="txt">Lineman.js <a href="https://github.com/linemanjs" target="_blank">Plugins</a> And <a href="http://linemanjs.com/#project-templates" target="_blank">Templates</a></h1>
+            <ul class="dark">
+              <li class="fragment"><img src="img/check.png" alt="check"/><a href="https://github.com/linemanjs/lineman-angular" target="_blank">angularJS</a></li>
+              <li class="fragment"><img src="img/check.png" alt="check"/>bower</li>
+              <li class="fragment"><img src="img/check.png" alt="check"/><a href="https://github.com/jewelsjacobs/lineman-docs" target="_blank">docco</a></li>
+              <li class="fragment"><img src="img/check.png" alt="check"/><a href="http://linemanjs.com/#creating-lineman-plugins" target="_blank">roll yer own</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="lineman-workflow" data-background-color="#000000">
+          <div class="section stretch">
+            <h1 class="txt"><a href="http://linemanjs.com/#develop-test-build" target="_blank"></a>Lineman.js Workflow</h1>
+            <div class="content">
+              <div class="sub well">
+                <p class="fragment bright">lineman new</p>
+                <p class="fragment bright">lineman run</p>
+                <p class="fragment bright">lineman spec</p>
+                <p class="fragment bright">lineman build</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="demo">
+          <h1><a href="https://github.com/jewelsjacobs/angularJS-linemanJS-meetup-demo" target="_blank">Demo App</a></h1>
+        </section>
+
+        <section id="qa">
+          <h1>Questions?</h1>
         </section>
 
 			</div>

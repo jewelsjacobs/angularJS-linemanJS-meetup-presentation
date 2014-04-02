@@ -76,24 +76,50 @@
   font-weight: 400;
   list-style-type: none;
 }
-.reveal #lineman .content img {
-  border: 0;
-  box-shadow: 0 0 0;
-  float: left;
-  margin: 40px;
-  padding: 40px;
-}
-.reveal #grunt .content img {
-  float: left;
-  margin: 40px;
-  padding: 40px;
+.reveal #lineman-grunt-stack img,
+.reveal #lineman-plugins img {
   text-shadow: 0 0 0;
   padding: 0;
   border: 0;
   box-shadow: 0 0 0;
   margin: 0;
 }
+.reveal #lineman .content img,
+.reveal #stack img {
+  border: 0;
+  box-shadow: 0 0 0;
+  float: left;
+  margin: 40px;
+  padding: 40px;
+}
+.reveal #lineman-grunt-stack ul,
+.reveal #lineman-plugins ul {
+  display: table-cell;
+  color: #000000;
+  line-height: 1.3em;
+  font-size: .8em;
+  font-weight: 400;
+  list-style-type: none;
+  width: 900px;
+  line-height: 1.7em;
+  padding: 0 40px;
+}
+.reveal #stack ul {
+  padding: 1em;
+  line-height: 1.4em;
+  font-size: 1.4em;
+}
 .reveal #grunt .content {
+  text-shadow: 0 0 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 0 0;
+  margin: 0;
+}
+.reveal #grunt .content img {
+  float: left;
+  margin: 40px;
+  padding: 40px;
   text-shadow: 0 0 0;
   padding: 0;
   border: 0;
@@ -154,4 +180,24 @@
   border-bottom: 1px solid;
   color: #FFFFFF;
   background-color: #000000;
+}
+.reveal .dark {
+  color: #000000;
+}
+.reveal .well {
+  margin: 0 188px;
+  padding: 20px;
+  color: #000;
+}
+.reveal .well p {
+  margin: 0;
+  line-height: 1.5em;
+  text-align: left;
+}
+.reveal .well p:before {
+  content: "> ";
+}
+.reveal .well .sub {
+  background: #999;
+  margin-bottom: 30px;
 }

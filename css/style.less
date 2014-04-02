@@ -77,22 +77,39 @@
     list-style-type: none;
   }
 
-  #lineman .content img {
-    .image;
-  }
-
-  #grunt .content img {
-    .image;
+  #lineman-grunt-stack img, #lineman-plugins img {
     .zero;
   }
 
-  #grunt .content {
-    .zero;
+  #lineman .content img, #stack img {
+    .image;
   }
 
-  #grunt .content .list {
-    margin: 0px -28px 0px 309px;
-    border: 1px solid #FFFFFF;
+  #lineman-grunt-stack ul, #lineman-plugins ul {
+    .bullets;
+    width: 900px;
+    line-height: 1.7em;
+    padding: 0 40px;
+  }
+
+  #stack ul {
+    padding: 1em;
+    line-height: 1.4em;
+    font-size: 1.4em;
+  }
+
+  #grunt {
+    .content {
+      .zero;
+      img {
+        .image;
+        .zero;
+      }
+      .list {
+        margin: 0px -28px 0px 309px;
+        border: 1px solid #FFFFFF;
+      }
+    }
   }
 
 // Lineman Slide 1
@@ -123,6 +140,28 @@
     .white;
     color: #FFFFFF;
     background-color: #000000;
+  }
+
+  .dark {
+    color: #000000;
+  }
+
+  .well {
+    margin: 0 188px;
+    padding: 20px;
+    color: #000;
+    p {
+      margin: 0;
+      line-height: 1.5em;
+      text-align: left;
+    }
+    p:before {
+      content: "> ";
+    }
+    .sub {
+      background: #999;
+      margin-bottom: 30px;
+    }
   }
 
 }
