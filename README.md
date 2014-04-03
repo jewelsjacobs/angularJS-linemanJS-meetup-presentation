@@ -10,13 +10,13 @@ Presentation for Austin AngularJS Meetup on how to use LinemanJS in an AngularJS
 * [coffeescript](http://coffeescript.org/)
 * [docco](http://jashkenas.github.io/docco/)
 * [express.js](http://expressjs.com/)
-* [bootstrap](http://getbootstrap.com/)
+* [foundation](http://foundation.zurb.com/)
 
 ##Testing
 * [protractor](https://github.com/angular/protractor)
 * [Testum](https://github.com/airportyh/testem)
 * [coffeelint](http://www.coffeelint.org/)
 
-[Streaming of event](https://www.youtube.com/watch?v=4FLv9vQIWO4)
+[Recorded stream of event](https://www.youtube.com/watch?v=4FLv9vQIWO4)
 
 [Code used in demo](https://github.com/jewelsjacobs/angularJS-linemanJS-meetup-demo)
