@@ -92,7 +92,17 @@
   margin: 40px;
   padding: 40px;
 }
-.reveal #lineman-grunt-stack ul,
+.reveal .ul-settings {
+  display: table-cell;
+  color: #000000;
+  line-height: 1.3em;
+  font-size: .8em;
+  font-weight: 400;
+  list-style-type: none;
+  width: 900px;
+  line-height: 1.7em;
+  padding: 0 40px;
+}
 .reveal #lineman-plugins ul {
   display: table-cell;
   color: #000000;
@@ -104,8 +114,19 @@
   line-height: 1.7em;
   padding: 0 40px;
 }
+.reveal #lineman-grunt-stack ul {
+  display: table-cell;
+  color: #000000;
+  line-height: 1.3em;
+  font-size: .8em;
+  font-weight: 400;
+  list-style-type: none;
+  width: 900px;
+  line-height: 1.7em;
+  padding: 0 40px;
+  font-size: .7em;
+}
 .reveal #stack ul {
-  padding: 1em;
   line-height: 1.4em;
   font-size: 1.4em;
 }
